@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { assets } from '../../assets/assets';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -17,18 +18,18 @@ const Navbar = () => {
 
       {/* home , menu */}
       <ul className='navbar-menu'>
-            <li onClick={() => setMenu("home")} className={  menu === "home" ? "active" : "" }>  
+            <Link to='/'  onClick={() => setMenu("home")} className={  menu === "home" ? "active" : "" }>  
                 Home
-            </li>
-            <li onClick={() => setMenu("menu")} className={  menu === "menu" ? "active" : "" }>  
+            </Link>
+            <a  href='#explore-menu' onClick={() => setMenu("menu")} className={  menu === "menu" ? "active" : "" }>  
                  Menu
-             </li>
-            <li onClick={() => setMenu("mobile-app")} className={  menu === "mobile-app" ? "active" : "" }>   
+             </a>
+            <a href='#app-download' onClick={() => setMenu("mobile-app")} className={  menu === "mobile-app" ? "active" : "" }>   
                 Mobile-App
-            </li>
-            <li onClick={() => setMenu("contact-us")} className={  menu === "contact-us" ? "active" : "" }>
+            </a>
+            <a href='#footer'  onClick={() => setMenu("contact-us")} className={  menu === "contact-us" ? "active" : "" }>
                Contact Us
-            </li>
+            </a>
 
       </ul>
 

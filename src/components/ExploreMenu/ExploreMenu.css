@@ -10,8 +10,10 @@
 }
 .explore-menu-test
 {
-    max-width: 60%;
+    max-width: 70%;
     color: #808080;
+   
+    text-justify: distribute;
 }
 .explore-menu-list
 {
@@ -53,6 +55,14 @@
      border: 4px solid tomato;
      padding: 2px;
 
+}
+
+@media (max-width:1050px)
+{
+    .explore-menu-text {
+        max-width: 100%;
+        font-size: 14px;
+    }
 }
 
 
