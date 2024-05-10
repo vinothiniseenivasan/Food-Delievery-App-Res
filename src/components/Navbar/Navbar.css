@@ -62,3 +62,21 @@
     top:-8px;
     right: -8px;
 }
+.navbar-logo-image
+{
+    /* style={{ height: '44px', width: '233px', objectFit: 'cover'  }} */
+    height:44px;
+    width: 233px;
+    object-fit: cover;
+}
+
+@media (max-width:600px)
+{
+    .navbar-logo-image
+    {
+        /* style={{ height: '44px', width: '233px', objectFit: 'cover'  }} */
+        height:40px;
+        width: 153px;
+        object-fit: cover;
+    }
+}

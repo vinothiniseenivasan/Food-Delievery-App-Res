@@ -1,19 +1,23 @@
-import React, { useState } from 'react'
+import React, { useCallback, useContext, useState } from 'react'
 import { assets } from '../../assets/assets';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import { StoreContext } from '../../context/StoreContext';
 
 
 const Navbar = ({setShowLogin}) => {
 
    const [menu,setMenu] = useState("home");
 
+   const {getTotalCartAmount} = useContext(StoreContext);
+
   return (
     <div className='navbar'>
 
 
       {/* app name */}
-       <img src={assets.foodapp_image} alt='' style={{ height: '44px', width: '233px', objectFit: 'cover'  }} /> 
+      <Link to="/"> <img className='navbar-logo-image' src={assets.foodapp_image} alt=''  /> </Link>
+       
        {/* <img src={assets.logo} alt="" />  */}
 
       {/* home , menu */}
@@ -38,11 +42,14 @@ const Navbar = ({setShowLogin}) => {
            <img src={assets.search_icon} alt="" />
            {/* its a cart in navbar */}
             <div className="navbar-search_icon">
-                <img src={assets.basket_icon} alt="" />
-                 <div className="dot">
+               <Link to='/cart'>   <img src={assets.basket_icon} alt="" /></Link>
 
-                   </div>
-    
+               {/* if total amount > 0 means dot will display in cart */}
+               {/* otherwise hide dot symbol */}
+               <div className={getTotalCartAmount() === 0 ? "" : "dot"}>
+
+               </div>
+
             </div>
             <button onClick={() => setShowLogin(true)}>
               sign in
