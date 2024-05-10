@@ -40,9 +40,9 @@ desktops, tablets, and mobile phones.
 - **User-friendly Interface**: Intuitive navigation and clear layout enhance the
 user experience.
 </p>
-<p>
-<strong>Screenshot :</strong>
-</p>
- ![Food Delivery App Screenshot](https://github.com/vinothiniseenivasan/Food-Delievery-App-Res/assets/137482214/945591f1-527b-46c0-af57-20b473b1dc71)
 
+<strong>Screenshot :</strong>
+
+ ![Screenshot](https://github.com/vinothiniseenivasan/Food-Delievery-App-Res/assets/137482214/945591f1-527b-46c0-af57-20b473b1dc71)
+<p></p>
 
