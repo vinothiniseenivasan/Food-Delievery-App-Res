@@ -43,8 +43,6 @@ user experience.
 <p>
 <strong>Screenshot :</strong>
 </p>
-<p>
-  ![Screenshot 2024-05-10 165417](https://github.com/vinothiniseenivasan/Food-Delievery-App-Res/assets/137482214/945591f1-527b-46c0-af57-20b473b1dc71)
-  
-</p>
+ ![Food Delivery App Screenshot](https://github.com/vinothiniseenivasan/Food-Delievery-App-Res/assets/137482214/945591f1-527b-46c0-af57-20b473b1dc71)
+
 
