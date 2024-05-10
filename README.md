@@ -1,8 +1,45 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>
+<strong># Food Delivery App</strong>
+</p>
+<p>
+Welcome to the Food Delivery App! This application allows users to browse food
+items, place orders, and manage their carts conveniently.
+</p>
+<p>
+<strong>Features :</strong>
+</p>
+<p>
+<strong>User Authentication: </strong>
+</p>
+<p>
+    Users can sign up, log in, and log out securely.
+</p>
+<p>
+<strong>Browse Menu:</strong>
+</p>
+<p>
+ Users can view available food items categorized by types.
+</p>
+<p>
+<strong>Cart Management:</strong>
+</p>
+<p>
+  Users can add items to their carts, update quantities, and remove items.
+</p>
+<p>
+<strong>Place Orders: </strong>
+</p>
+<p>
+  Users can place orders for their selected items.
+</p>
+<p>
+- **Responsive Design**: The app is optimized for various devices, including
+desktops, tablets, and mobile phones.
+</p>
+<p>
+- **User-friendly Interface**: Intuitive navigation and clear layout enhance the
+user experience.
+</p>
+<p>
+<strong>Screenshot :</strong>
+</p>
